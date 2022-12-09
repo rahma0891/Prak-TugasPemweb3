@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 3 PemWeb_RAHMA WATI_120140184</title>
+    <link rel="stylesheet" href="kode.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="content_left">
+            <h3>Kartu Nama</h3>
+          <div class="gambar">
+            <img src="RAHMA.jpeg" alt="pp" width="250" height="300" />
+          </div>
+          <div class="button">
+            <button onclick="about()">About</button>
+            <button onclick="contact()">Contact Me</button>
+            <button onclick="cv()">Check My CV</button>
+          </div>
+          
+          <div class="output">
+            <div id="about">Hallo,nama saya RAHMA WATI dari prodi Teknik Informatika angkatan 2020</div>
+            <div id="contact">
+                Ikuti saya di media sosial instagram @radsgn89
+            </div>
+            
+            <div >
+                <input type="text" id="saran" placeholder="kasih saran :)">
+                <button onclick="getSaran()" type="submit">submit</button>
+              </div>
+          </div>
+        </div>
+        
+        <div class="container_cv" id="cv">
+          <img src="CV.png" alt="cv" width="400"  />
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
